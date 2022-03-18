@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/ESA LAB/Desktop/TPP_8PUZZLE/cmake-build-debug"
+			"value" : "c:/Users/ESA LAB/Desktop/Files/course/110-2/Theroy of Computer games/TPP_8PUZZLE/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -623,7 +623,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/ESA LAB/Desktop/TPP_8PUZZLE"
+			"value" : "C:/Users/ESA LAB/Desktop/Files/course/110-2/Theroy of Computer games/TPP_8PUZZLE"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1239,7 +1239,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/ESA LAB/Desktop/TPP_8PUZZLE/cmake-build-debug"
+			"value" : "C:/Users/ESA LAB/Desktop/Files/course/110-2/Theroy of Computer games/TPP_8PUZZLE/cmake-build-debug"
 		},
 		{
 			"name" : "TPP_8PUZZLE_IS_TOP_LEVEL",
@@ -1263,7 +1263,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/ESA LAB/Desktop/TPP_8PUZZLE"
+			"value" : "C:/Users/ESA LAB/Desktop/Files/course/110-2/Theroy of Computer games/TPP_8PUZZLE"
 		}
 	],
 	"kind" : "cache",

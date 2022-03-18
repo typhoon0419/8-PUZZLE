@@ -1,5 +1,4 @@
 #include <iostream>
-#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 #include <iomanip>
@@ -57,7 +56,7 @@ public:
             srand(i);
             if (a == 1)
                 make_game_that_can_solved();
-            else if (a == 2)
+            else if (a == 0)
                 make_game_in_random();
 
 
@@ -96,7 +95,7 @@ public:
     }
     void make_game_that_can_solved(){
         int board[9]={0};
-        int i,j,n;
+        int i,n;
         int zero;
         int size = 9;
         int side = 3;
@@ -343,7 +342,7 @@ public:
         while (true){
             parent_node++;
             add_route();
-            if (is_stop == true){
+            if (is_stop){
                 is_stop = false;
                 continue;
             }
@@ -401,17 +400,17 @@ int main() {
         std::cout << "2 or even for make_game_in_random()" << std::endl;
 
         std::cin >> choice;
-        puzzle1.repeat(a%2);
+        puzzle1.repeat(choice % 2);
 
 
 
-        if (a%2 == 0)
+        if (choice % 2 == 0)
             std::cout << "Using make_game_in_random() to create initial game board." << std::endl;
         else
             std::cout << "Using make_game_that_can_solved() to create initial game board." << std::endl;
         std::cout << total_win << " question is solved" << std::endl;
 
-        std::cout << "Percentage of solved: " << float(total_win/1000*100) << "%" << std::endl;
+        std::cout << "Percentage of solved: " << float(total_win)/1000*100 << "%" << std::endl;
     }
 
 

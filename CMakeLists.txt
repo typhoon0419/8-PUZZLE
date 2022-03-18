@@ -5,3 +5,4 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(TPP_8PUZZLE
         main.cpp)
+
