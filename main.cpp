@@ -393,23 +393,26 @@ int main() {
 
     std::cin >> a;
 
-    std::cout << "Please choose a create game method." << std::endl;
-    std::cout << "1 or odd for make_game_that_can_solved()" << std::endl;
-    std::cout << "2 or even for make_game_in_random()" << std::endl;
 
-    std::cin >> choice;
 
-    if(a == 'Y'||a=='y')
+    if(a == 'Y'||a=='y'){
+        std::cout << "Please choose a create game method." << std::endl;
+        std::cout << "1 or odd for make_game_that_can_solved()" << std::endl;
+        std::cout << "2 or even for make_game_in_random()" << std::endl;
+
+        std::cin >> choice;
         puzzle1.repeat(a%2);
 
-    if (a%2 == 0)
-        std::cout << "Using make_game_in_random() to create initial game board." << std::endl;
-    else
-        std::cout << "Using make_game_that_can_solved() to create initial game board." << std::endl;
-    std::cout << total_win << " question is solved" << std::endl;
 
-    std::cout << "Percentage of solved: " << float(total_win/1000*100) << "%" << std::endl;
 
+        if (a%2 == 0)
+            std::cout << "Using make_game_in_random() to create initial game board." << std::endl;
+        else
+            std::cout << "Using make_game_that_can_solved() to create initial game board." << std::endl;
+        std::cout << total_win << " question is solved" << std::endl;
+
+        std::cout << "Percentage of solved: " << float(total_win/1000*100) << "%" << std::endl;
+    }
 
 
     return 0;
